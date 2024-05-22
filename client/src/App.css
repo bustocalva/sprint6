@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+div.container-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 2px 2px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #1a1a1a;
+}
+
+tr:nth-child(even) {
+  background-color: #393939;
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.224);
+}
+
+#error_token {
+  color: red;
+}
